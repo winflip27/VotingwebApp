@@ -1,0 +1,58 @@
+﻿﻿body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-vertical {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+    .menu-vertical a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+    }
+
+        .menu-vertical a:hover {
+            background-color: #575757;
+        }
+
+.contenido {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"], form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
